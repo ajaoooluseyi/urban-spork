@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/**/*": {
+      "runtime": "vercel-python@0.28.1"
+    }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/api/.*", "dest": "/api/api.py" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
