@@ -1,7 +1,7 @@
 import unittest
 from flask import Flask
 from flask_testing import TestCase
-from app import app, db, Word
+from api.app import app, db, Word
 
 
 class AppTestCase(TestCase):
