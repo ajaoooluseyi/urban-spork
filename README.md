@@ -3,8 +3,8 @@
 This is a REST Api built with Flask. It is a Word retrieval system with CRUD operations.
 
 _Instructions to run_
-On the terminal execute the below command to create the projects' working directory and move into that directory.
 
+On the terminal execute the below command to create the projects' working directory and move into that directory.
  
 ```python
 $ mkdir urban-spork
